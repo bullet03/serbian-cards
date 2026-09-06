@@ -1,0 +1,51 @@
+:root {
+  --text: #3f3d45;
+  --text-muted: #767280;
+  --text-h: #17151f;
+  --bg: #faf9fc;
+  --surface: #ffffff;
+  --border: #e3e1e8;
+  --accent: #7c3aed;
+  --accent-contrast: #ffffff;
+  --danger: #dc2626;
+  --success: #16a34a;
+  --warning: #d97706;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #d7d4de;
+    --text-muted: #9490a0;
+    --text-h: #f5f3f9;
+    --bg: #141218;
+    --surface: #1e1c24;
+    --border: #322f3a;
+    --accent: #a78bfa;
+    --accent-contrast: #1c1428;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+h1, h2, h3 {
+  color: var(--text-h);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+}

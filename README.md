@@ -4,7 +4,9 @@
 идея как у AnkiDroid. Фронтенд без своего сервера, данные хранятся в Firebase
 (Firestore + Authentication).
 
-## Запуск
+**Сайт:** https://bullet03.github.io/serbian-cards/
+
+## Запуск локально
 
 ```bash
 cd ~/Documents/serbian-cards
@@ -12,6 +14,12 @@ npm run dev
 ```
 
 Откройте адрес `http://localhost:...`, который появится в терминале.
+
+## Деплой
+
+При каждом `git push` в ветку `main` GitHub Actions (`.github/workflows/deploy.yml`)
+сам собирает проект и публикует его на GitHub Pages — вручную ничего заливать
+не нужно.
 
 ## Как это работает
 

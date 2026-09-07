@@ -2,26 +2,16 @@ import { newCard } from './srs';
 import type { Card } from './types';
 
 const SEED_WORDS: Array<[serbian: string, russian: string]> = [
-  ['zdravo', 'привет'],
-  ['dobar dan', 'добрый день'],
-  ['hvala', 'спасибо'],
-  ['molim', 'пожалуйста'],
-  ['da', 'да'],
-  ['ne', 'нет'],
-  ['kako si', 'как дела'],
-  ['dobro', 'хорошо'],
-  ['voda', 'вода'],
-  ['hleb', 'хлеб'],
-  ['mleko', 'молоко'],
-  ['jabuka', 'яблоко'],
-  ['kuća', 'дом'],
-  ['prijatelj', 'друг'],
-  ['porodica', 'семья'],
-  ['posao', 'работа'],
-  ['škola', 'школа'],
-  ['knjiga', 'книга'],
-  ['vreme', 'время / погода'],
-  ['ljubav', 'любовь'],
+  ['umivati se', 'умываться'],
+  ['obrisati', 'протереть'],
+  ['udariti', 'ударить'],
+  ['dosegnuti', 'дотянуться'],
+  ['zevati', 'зевать'],
+  ['kihnuti', 'чихнуть'],
+  ['trepnuti', 'моргнуть'],
+  ['protegnuti se', 'потянуться'],
+  ['spotaknuti se', 'споткнуться'],
+  ['uzdahnuti', 'вздохнуть'],
 ];
 
 export function seedCards(): Card[] {
